@@ -1,0 +1,55 @@
+.evCont {
+  height: 100%;
+  padding: 20px;
+}
+
+.mySwiper {
+  width: 100%;
+  height: 100%;
+  overflow-y: hidden;
+}
+
+.swiper-slide {
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  border-radius: 5px;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.swiper-slide .title {
+  text-align: left;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 5px 20px 0px;
+}
+
+.swiper-slide .text {
+  height: 60px;
+  text-align: justify;
+  padding: 5px 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.swiper-slide .date {
+  padding: 0px 20px 5px;
+  overflow: hidden;
+}

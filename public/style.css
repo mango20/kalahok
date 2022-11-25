@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,700;1,800&family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+:root {
+  --fontFam1: "Open Sans", sans-serif;
+  --fontFam2: "Source Sans 3", sans-serif;
+  --primaryColor: #36408d;
+  --secondaryColor: #e4c420;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ContactTitle {
+  text-align: center;
+}
+
+h2 {
+  font-family: var(--fontFam1);
+  font-weight: bold;
+  color: var(--primaryColor);
+}
+
+h6,
+p {
+  font-family: var(--fontFam2);
+}

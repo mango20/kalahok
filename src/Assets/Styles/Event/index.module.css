@@ -1,0 +1,11 @@
+.eventBg {
+  background: #36408d;
+  height: 100%;
+  padding: 50px 0;
+}
+
+.eventTitle {
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
+}

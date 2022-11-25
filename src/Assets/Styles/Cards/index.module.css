@@ -1,0 +1,58 @@
+.contactBg {
+  background: #e4c420;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 50px 0;
+}
+
+.Container {
+  padding: 10px;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 900px) {
+  .contactBg {
+    padding: 10px;
+    background: #e4c420;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .Container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .CardContainer {
+    width: 100%;
+  }
+
+  .ContactTitle {
+    padding: 20px;
+  }
+}
+
+.CardContainer {
+  width: 100%;
+  padding: 50px;
+  margin: 10px;
+  background: #ffffff;
+  text-align: center;
+}
+
+.svgIcons {
+  width: 100px;
+  height: 100px;
+  align-self: center;
+}
+
+.ContactTitle {
+  text-align: center;
+}
