@@ -33,17 +33,16 @@ function EventCard() {
         }}
         navigation={true}
         modules={[FreeMode, Pagination, Navigation]}
-        loop={true}
         className="mySwiper"
       >
         {eventCont.map((val, key) => {
           return (
             <>
               <SwiperSlide className="swiper-slide">
-                <img src={val.imgs} />
-                <div className="title">{val.title}</div>
-                <div className="date">{val.date}</div>
-                <div className="text">
+                <div className="title">
+                  <img src={val.imgs} />
+                  <h3>{val.title}</h3>
+                  <h6>{val.date}</h6>
                   <p>{val.content}</p>
                 </div>
               </SwiperSlide>
