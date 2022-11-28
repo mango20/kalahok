@@ -37,6 +37,10 @@
   .ContactTitle {
     padding: 20px;
   }
+
+  .ContactTitle h6 {
+    padding: 0px;
+  }
 }
 
 .CardContainer {

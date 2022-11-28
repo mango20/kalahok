@@ -37,4 +37,9 @@
     text-align: center;
     padding: 20px 0px 0px;
   }
+
+  .description p {
+    text-align: justify;
+    padding: 0px;
+  }
 }
