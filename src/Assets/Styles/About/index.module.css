@@ -20,6 +20,10 @@
   text-align: justify;
 }
 
+.description h2 {
+  padding: 0px 20px;
+}
+
 @media screen and (max-width: 900px) {
   .AboutContainer {
     display: block;
